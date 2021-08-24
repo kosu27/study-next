@@ -4,6 +4,7 @@ import { Footer } from "src/components/Footer";
 import { Main } from "src/components/Main";
 import { Header } from "src/components/Header";
 import { useCallback } from "react";
+import Link from "next/link";
 
 // const handleClick = (e) => {
 //   console.log(e.target.href);
