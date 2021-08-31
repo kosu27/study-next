@@ -7,6 +7,7 @@ export const useInputArray = () => {
   const handleChange = useCallback((e) => {
     if (e.target.value.length > 5) {
       alert("5文字以内にしてください");
+
       return;
     }
     setText(e.target.value.trim());
