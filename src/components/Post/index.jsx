@@ -7,7 +7,7 @@ export const Post = () => {
   const { data, error, isLoading } = usePost();
 
   if (isLoading) {
-    return <div>ローディング中</div>;
+    return <div>Loading...</div>;
   }
 
   if (error) {

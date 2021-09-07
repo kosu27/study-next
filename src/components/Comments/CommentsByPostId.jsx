@@ -5,7 +5,7 @@ export const CommentsByPostId = (props) => {
   const { data, error, isLoading, isEmpty } = useCommentsByPostsId(props.id);
 
   if (isLoading) {
-    return <div>ローディング中</div>;
+    return <div>Loading...</div>;
   }
 
   if (error) {

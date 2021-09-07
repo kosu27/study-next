@@ -8,7 +8,7 @@ export const UserByUserId = (props) => {
   );
 
   if (!data && !error) {
-    return <div>ローディング中</div>;
+    return <div>Loading...</div>;
   }
 
   if (error) {

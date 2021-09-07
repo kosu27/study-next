@@ -5,7 +5,7 @@ export const Posts = () => {
   const { data, error, isLoading, isEmpty } = usePosts();
 
   if (isLoading) {
-    return <div>ローディング中</div>;
+    return <div>Loading...</div>;
   }
 
   if (error) {
