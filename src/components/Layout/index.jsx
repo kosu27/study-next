@@ -1,5 +1,10 @@
-import classes from "src/components/Layout/Layout.module.css";
-
 export const Layout = (props) => {
-  return <div className={classes.container}>{props.children}</div>;
+  return (
+    <div className="flex flex-col items-center mx-auto px-2 min-h-screen max-w-2xl">
+      {props.children}
+    </div>
+  );
 };
+
+// min-height: 100vh;
+//   padding: 0 0.5rem;
