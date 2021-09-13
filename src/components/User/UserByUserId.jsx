@@ -3,8 +3,7 @@ import useSWR from "swr";
 
 export const UserByUserId = (props) => {
   const { data, error } = useSWR(
-    props.id ? `https://jsonplaceholder.typicode.com/users/${props.id}` : null,
-    fetcher
+    props.id ? `https://jsonplaceholder.typicode.com/users/${props.id}` : null
   );
 
   if (!data && !error) {
